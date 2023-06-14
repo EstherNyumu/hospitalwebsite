@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MNHC</title>
+    <!--    Start of js connection-->
+    <script src="../static/bootstrap/js/jquery-3.4.0.js"></script>
+    <script src="../static/bootstrap/js/popper.min.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.js"></script>
+    <!--    End of js connection -->
+    <!--    start of css connection-->
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/bootstrap/css/styles.css">
+    <!--    End of css connection-->
+
+</head>
+<body>
+<!--start of navigation section-->
+<section>
+    <nav class="navbar navbar-expand-md bg-info navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand font-weight-bold " href="index.html">MNHC</a>
+
+        <!-- Toggler/collapsible Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav text-uppercase">
+                <li class="nav-item ">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-us.html">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</section>
+<!--end of navigation section-->
+
+<!--start of carousel section-->
+<section>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../static/images/home-image-one.jpg" alt="Los Angeles">
+                <div class="carousel-caption">
+                    <h3>Love</h3>
+                    <p>We have so much love in here!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../static/images/home-image-two.jpg" alt="Chicago">
+                <div class="carousel-caption">
+                    <h3>Peace</h3>
+                    <p>We promise that's all you get in here!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../static/images/home-image-three.jpg" alt="New York">
+                <div class="carousel-caption">
+                    <h3>Care</h3>
+                    <p>We ensure maximum care to our patients!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+    </div>
+</section>
+<!--end of carousel section-->
+
+<!--start of introduction section-->
+<section>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1>Welcome to Mathari North Health Center</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, aliquid eum exercitationem facilis neque non placeat sed soluta temporibus veniam?
+                Dolore doloribus enim laborum laudantium maiores, rerum sapiente sed tenetur?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, aliquid eum exercitationem facilis neque non placeat sed soluta temporibus veniam?
+                Dolore doloribus enim laborum laudantium maiores, rerum sapiente sed tenetur?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, aliquid eum exercitationem facilis neque non placeat sed soluta temporibus veniam?
+                Dolore doloribus enim laborum laudantium maiores, rerum sapiente sed tenetur?</p>
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-12">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores, blanditiis consequuntur
+                        dignissimos dolore ea eos est, eum excepturi facilis harum, impedit ipsa neque porro quam quibusdam quod repellendus temporibus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores, blanditiis consequuntur
+                        dignissimos dolore ea eos est, eum excepturi facilis harum, impedit ipsa neque porro quam quibusdam quod repellendus temporibus.</p>
+                </div>
+
+                <div class="col-md-6 col-sm-6 col-12">
+                    <img class="intro-img" src="../static/images/home-image-two.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end of introduction section-->
+
+
+<!--start of footer section-->
+<section>
+    <div class="row footer-row">
+        <div class="col-md-4">
+            <h3 class="text-white">Quick links</h3>
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-white">Contact Information</h3>
+        </div>
+        <div class="col-md-4">
+            <h3 class="text-white">Contact form</h3>
+            <form action="#" class="was-validated">
+                <div class="form-group">
+                    <label for="uname">Username:</label>
+                    <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Password:</label>
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                    <div class="valid-feedback">Valid.</div>
+                    <div class="invalid-feedback">Please fill out this field.</div>
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" name="remember" required> I agree to the T&C's
+                        <div class="valid-feedback">Confirmed.</div>
+                        <div class="invalid-feedback">Check this checkbox to continue.</div>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+<!--end of footer section-->
+</body>
+</html>
